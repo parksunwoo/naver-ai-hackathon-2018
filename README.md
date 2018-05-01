@@ -1,6 +1,3 @@
-# naver-ai-hackathon-2018
-"한계를 넘어 상상에 도전하자!" [네이버 AI 해커톤 2018](https://github.com/naver/ai-hackathon-2018)
-
 ## Mission
 * 네이버 영화 평점 예측
 
@@ -75,18 +72,18 @@
 
 ````bash
 $ cd movie-review/model
-$ nsml run -d movie_final -e main.py -a "--embedding 300 --kernel_num 400 --kernel_sizes '7,8,9,10' --dropout 0.25 --lr 0.01"
+$ nsml run -d movie_final -e main.py -a "--embedding 100 --kernel_num 400 --kernel_sizes '7,8,9,10' --dropout 0.25 --lr 0.01"
 ````
 
 ## Final score
-score : 3.58064 / 결선 참가팀 중 24th
+Score : <strong>3.58064</strong> / 결선 참가팀 중 <strong>24등</strong><br><br>
 <img src="res/final_leaderboard.png">
 
 ## Reference
-[Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882)<br>
-[A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1510.03820)<br>
-[합성곱 신경망(CNN) 딥러닝을 이용한 한국어 문장 분류](http://docs.likejazz.com/cnn-text-classification-tf)<br>
-[CNN으로 문장 분류하기](https://ratsgo.github.io/natural%20language%20processing/2017/03/19/CNN)
+- paper [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882)<br>
+- paper [A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1510.03820)<br>
+- blog [합성곱 신경망(CNN) 딥러닝을 이용한 한국어 문장 분류](http://docs.likejazz.com/cnn-text-classification-tf)<br>
+- blog [CNN으로 문장 분류하기](https://ratsgo.github.io/natural%20language%20processing/2017/03/19/CNN)
 
 
 
