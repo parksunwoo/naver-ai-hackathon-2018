@@ -44,7 +44,7 @@
     - Max over time pooling
     - Fully Connected layer with dropout and softmax output
     
-## Hyperparemeter search
+## Hyperparameter search
 * Effect of filter region size
     - (7,7,7,7)  
     - (10,10,10,10) 
@@ -77,13 +77,13 @@ $ nsml run -d movie_final -e main.py -a "--embedding 100 --kernel_num 400 --kern
 
 ## Final score
 Score : <strong>3.58064</strong> / 결선 참가팀 중 <strong>24등</strong><br><br>
-<img src="res/result_movie_final.png">
+<img src="res/final_leaderboard.png">
 
 ## Reference
-- paper [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882)<br>
-- paper [A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1510.03820)<br>
-- blog [합성곱 신경망(CNN) 딥러닝을 이용한 한국어 문장 분류](http://docs.likejazz.com/cnn-text-classification-tf)<br>
-- blog [CNN으로 문장 분류하기](https://ratsgo.github.io/natural%20language%20processing/2017/03/19/CNN)
+- paper : [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882)<br>
+- paper : [A Sensitivity Analysis of (and Practitioners' Guide to) Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1510.03820)<br>
+- blog : [합성곱 신경망(CNN) 딥러닝을 이용한 한국어 문장 분류](http://docs.likejazz.com/cnn-text-classification-tf)<br>
+- blog : [CNN으로 문장 분류하기](https://ratsgo.github.io/natural%20language%20processing/2017/03/19/CNN)
 
 
 
