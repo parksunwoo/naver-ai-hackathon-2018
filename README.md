@@ -77,7 +77,7 @@ $ nsml run -d movie_final -e main.py -a "--embedding 100 --kernel_num 400 --kern
 
 ## Final score
 Score : <strong>3.58064</strong> / 결선 참가팀 중 <strong>24등</strong><br><br>
-<img src="res/final_leaderboard.png">
+<img src="res/result_movie_final.png">
 
 ## Reference
 - paper [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/abs/1408.5882)<br>
